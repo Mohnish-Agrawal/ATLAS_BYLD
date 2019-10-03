@@ -55,5 +55,6 @@ if(leaderboard['1st'][1]>score):
 	tts2.speak("Don't worry, Not everyone is a computer")
 else:
 	tts2.speak("Go get a life, Nerd!")
+	
 print("\n 1st : " + leaderboard['1st'][0] + " - " + str(leaderboard['1st'][1]) + "\n 2nd : " + leaderboard['2nd'][0] + " - " + str(leaderboard['2nd'][1]) + "\n 3rd : " + leaderboard['3rd'][0] + " - " + str(leaderboard['3rd'][1]) + "\n")
-print("Game Over!! Your score is " + str(score))
+print("Game Over!! Your score is: " + str(score))
