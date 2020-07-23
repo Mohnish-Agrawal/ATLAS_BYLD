@@ -16,16 +16,18 @@ Please make sure that you have pip/pip3 installed for easy installation of libra
 If you face any problems installing PyAudio, please check your Python version (can be checked by simply running python on terminal), click on this [link](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) and download the corresponding PyAudio file. 
 
 Once you download it, browse to the folder containing the downloaded python file and run this command - 
-`` pip install "FileName"``
+``` 
+pip install "FileName"
+```
 
 ## Error handling
 Many may face an error reporting that the system could not find the ffmpeg or ffprod files. In this case, one can try two things:
  ### 1. Remove lines from tts2.py
  * Comment line numbers 5 - 7, they look like this:
  ```
-			AudioSegment.converter = "C:\\Program Files\\ffmpeg-20200721-b5f1e05-win64-static\\bin\\ffmpeg.exe"
-			AudioSegment.ffmpeg = "C:\\Program Files\\ffmpeg-20200721-b5f1e05-win64-static\\bin\\ffmpeg.exe"
-			AudioSegment.ffprobe = "C:\\Program Files\\ffmpeg-20200721-b5f1e05-win64-static\\bin\\ffprobe.exe"
+	AudioSegment.converter = "C:\\Program Files\\ffmpeg-20200721-b5f1e05-win64-static\\bin\\ffmpeg.exe"
+	AudioSegment.ffmpeg = "C:\\Program Files\\ffmpeg-20200721-b5f1e05-win64-static\\bin\\ffmpeg.exe"
+	AudioSegment.ffprobe = "C:\\Program Files\\ffmpeg-20200721-b5f1e05-win64-static\\bin\\ffprobe.exe"
 ```	
 * Restart the system, and then run atlas_script.py
 
@@ -36,7 +38,9 @@ Many may face an error reporting that the system could not find the ffmpeg or ff
 
 ## Running the game
 Once all the modules and software has been downloaded, one can run the game by simply typing the following command in the terminal: 
-```python atlas_script.py```
+```
+python atlas_script.py
+```
 
 To play the game, we first enter our names, and then start saying names of the countries with the letter suggested by the PC. One can exit the game by saying exit instead of a place's name.
 
