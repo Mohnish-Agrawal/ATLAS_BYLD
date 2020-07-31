@@ -1,0 +1,7 @@
+speechRecognizer
+ffmpeg - change path of audio segment
+PyAudio
+PyDub
+gtts
+urllib
+python 3.8 or above
